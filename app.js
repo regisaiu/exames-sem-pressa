@@ -92,11 +92,11 @@ document.getElementById("conteudo").innerHTML = `
 <h2>🐍 Acidente com cobra</h2>
 
 <h3>Jararaca</h3>
-<img id="imgJararaca" src="imagens/jararaca1.jpg">
+<img id="imgJararaca" src="jararaca1.jpg">
 <button onclick="trocarJararaca()">Mais fotos</button>
 
 <h3>Cascavel</h3>
-<img id="imgCascavel" src="imagens/cascavel1.jpg">
+<img id="imgCascavel" src="cascavel1.jpg">
 <button onclick="trocarCascavel()">Mais fotos</button>
 
 <p><b>Sinais:</b> dor, inchaço, sangramento</p>
