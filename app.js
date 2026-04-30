@@ -227,8 +227,8 @@ function agrotoxico(){
   <h3>📞 Disque intoxicação</h3>
   <p><b>0800 722 6001 (ANVISA)</b></p>
 
-  </div>
-  `;
+</div>
+`;
 }
 
 /* ================= REFERÊNCIAS ================= */
