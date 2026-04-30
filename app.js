@@ -144,88 +144,86 @@ function agrotoxico(){
   document.getElementById("conteudo").innerHTML = `
   <div class="card">
 
-  <h2>☠️ Intoxicação por Agrotóxicos</h2>
+  <h2>☠️ Contato com Agrotóxicos</h2>
 
-  <h3>📌 Principais grupos</h3>
-  <p><b>Organofosforados e carbamatos:</b> inibem acetilcolinesterase</p>
-  <p><b>Piretroides:</b> neurotóxicos, geralmente mais leves</p>
-  <p><b>Herbicidas (ex: glifosato):</b> irritativos e sistêmicos</p>
+  <p>Agrotóxicos podem causar intoxicação pela pele, respiração ou ingestão. 
+  Os sintomas variam conforme o tipo do produto.</p>
 
   <hr>
 
-  <h3>🧠 Sinais e sintomas</h3>
+  <h3>🌿 Produtos comuns na roça</h3>
 
-  <p><b>Síndrome colinérgica (organofosforados):</b></p>
+  <p><b>Inseticidas (veneno de inseto):</b></p>
   <ul>
-    <li>Salivação intensa</li>
-    <li>Lacrimejamento</li>
-    <li>Sudorese</li>
-    <li>Miose</li>
-    <li>Broncorreia / broncoespasmo</li>
-    <li>Bradicardia</li>
-    <li>Vômitos e diarreia</li>
+    <li>Muita saliva ou baba</li>
+    <li>Suor excessivo</li>
+    <li>Pupila bem pequena (olho “fechado”)</li>
+    <li>Falta de ar</li>
+    <li>Vômito e diarreia</li>
   </ul>
 
-  <p><b>Grave:</b></p>
+  <p><b>Herbicidas (ex: glifosato – mata mato):</b></p>
   <ul>
-    <li>Confusão / coma</li>
-    <li>Convulsões</li>
-    <li>Insuficiência respiratória</li>
+    <li>Náusea e vômito</li>
+    <li>Dor na barriga</li>
+    <li>Irritação na pele ou nos olhos</li>
+    <li>Tontura</li>
   </ul>
 
-  <p><b>Glifosato:</b></p>
+  <p><b>Piretróides (veneno mais leve de inseto):</b></p>
   <ul>
-    <li>Náuseas e vômitos</li>
-    <li>Dor abdominal</li>
-    <li>Irritação de pele e olhos</li>
-    <li>Em casos graves: choque, insuficiência renal</li>
+    <li>Ardência na pele</li>
+    <li>Coceira</li>
+    <li>Formigamento</li>
+    <li>Tontura leve</li>
   </ul>
 
   <hr>
 
-  <h3>🚑 Conduta inicial</h3>
-
+  <h3>🚨 Sinais de perigo (grave)</h3>
   <ul>
-    <li>Retirar da exposição imediatamente</li>
-    <li>Remover roupas contaminadas</li>
-    <li>Lavar pele com água e sabão</li>
-    <li>Oxigênio se necessário</li>
-    <li>Monitorização</li>
+    <li>Dificuldade para respirar</li>
+    <li>Confusão ou desmaio</li>
+    <li>Convulsão</li>
+    <li>Fraqueza intensa</li>
   </ul>
 
-  <p><b>Se ingestão recente:</b></p>
+  <p><b>➡️ Se tiver algum desses sinais, procure atendimento urgente!</b></p>
+
+  <hr>
+
+  <h3>🚑 O que fazer na hora</h3>
+
+  <ul>
+    <li>Afaste a pessoa do produto imediatamente</li>
+    <li>Retire a roupa contaminada</li>
+    <li>Lave a pele com água e sabão</li>
+    <li>Se cair no olho: lavar com água corrente por vários minutos</li>
+    <li>Levar para um local ventilado</li>
+  </ul>
+
+  <p><b>⚠️ Importante:</b></p>
   <ul>
     <li>Não provocar vômito</li>
-    <li>Carvão ativado (se indicado)</li>
+    <li>Não dar leite ou álcool</li>
   </ul>
 
   <hr>
 
-  <h3>💉 Tratamento específico</h3>
-
-  <p><b>Organofosforados:</b></p>
-  <ul>
-    <li>Atropina IV (até secar secreções)</li>
-    <li>Pralidoxima (se disponível)</li>
-  </ul>
-
-  <p><b>Convulsões:</b> Diazepam</p>
-
-  <hr>
-
-  <h3>⚠️ Quando encaminhar urgente</h3>
+  <h3>🏥 Quando procurar ajuda</h3>
 
   <ul>
-    <li>Dispneia</li>
-    <li>Rebaixamento de consciência</li>
-    <li>Convulsão</li>
-    <li>Instabilidade hemodinâmica</li>
+    <li>Se ingeriu o produto</li>
+    <li>Se os sintomas não melhoram</li>
+    <li>Se houver qualquer sinal de gravidade</li>
   </ul>
 
   <hr>
 
-  <h3>📞 Disque intoxicação</h3>
-  <p><b>0800 722 6001 (ANVISA)</b></p>
+  <h3>📞 Disque Intoxicação</h3>
+  <p><b>0800 722 6001 (ligação gratuita)</b></p>
+
+  <p>Se possível, leve o rótulo do produto.</p>
 
 </div>
 `;
