@@ -1,0 +1,8 @@
+{
+"name": "Exames sem Pressa",
+"short_name": "Exames",
+"start_url": "/index.html",
+"display": "standalone",
+"background_color": "#ffffff",
+"theme_color": "#2a9d8f"
+}
