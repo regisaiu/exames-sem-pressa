@@ -92,7 +92,7 @@ document.getElementById("conteudo").innerHTML = `
 <h2>🐍 Acidente com cobra</h2>
 
 <h3>Jararaca</h3>
-<img id="imgJararaca" src="jararaca1.jpg">
+<img id="imgJararaca" src="jararaca.jpg">
 <button onclick="trocarJararaca()">Mais fotos</button>
 
 <h3>Cascavel</h3>
