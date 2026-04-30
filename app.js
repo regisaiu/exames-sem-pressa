@@ -1,5 +1,22 @@
 /* ================= INÍCIO ================= */
+let fotosJararaca = [
+  "jararaca.jpg",
+  "jararaca2.jpg",
+  "jararaca3.jpg",
+  "jararaca4.jpg",
+  "jararaca5.jpg",
+  "jararaca6.jpg"
+];
 
+let fotosCascavel = [
+  "cascavel1.jpg",
+  "cascavel2.jpg",
+  "cascavel3.jpg",
+  "cascavel4.jpg"
+];
+
+let indexJ = 0;
+let indexC = 0;
 function inicio(){
 document.getElementById("conteudo").innerHTML = `
 <div class="card">
@@ -168,4 +185,19 @@ document.getElementById("conteudo").innerHTML = `
 
 </div>
 `;
+}
+function trocarJararaca() {
+  indexJ++;
+  if (indexJ >= fotosJararaca.length) {
+    indexJ = 0;
+  }
+  document.getElementById("imgJararaca").src = fotosJararaca[indexJ];
+}
+
+function trocarCascavel() {
+  indexC++;
+  if (indexC >= fotosCascavel.length) {
+    indexC = 0;
+  }
+  document.getElementById("imgCascavel").src = fotosCascavel[indexC];
 }
